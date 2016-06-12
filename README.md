@@ -17,7 +17,7 @@ Generates a list with the path for the best alignment from score map.
 <br></br>
 ### nucleic_acid module
 Uses *needleman_wunsch module* and *glorious_path module* to align two strings. 
-Based on glorious path, generates two strings visually representing the alignment of the inputed strings.
+Based on glorious path, generates two strings to visually represent the alignment.
 
 <br></br>
 ### Other modules
