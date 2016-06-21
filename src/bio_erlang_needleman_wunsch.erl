@@ -1,7 +1,7 @@
 %%% This module performs all operations to create the alignment of nucleic
 %%% acid sequences.
--module(needleman_wunsch).
--export([to_sequences/2, perform/2]).
+-module(bio_erlang_needleman_wunsch).
+-export([to_sequences/2, perform/2, last_point/1]).
 
 %% Returns match|mismatch indicating if there is a match of nucleotides.
 %% 1st param -> A 2-ple with the nucleotides' position.
